@@ -1,0 +1,5 @@
+,Probabilities,Predictions
+antibacterial,0.54731256,1
+antifungal,0.122872286,0
+cytotoxic_antitumor,0.30089074,0
+siderophore,0.04554609,0
