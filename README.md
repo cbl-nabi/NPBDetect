@@ -123,6 +123,16 @@ Replace `<INPUT_DIR>` and `<OUTPUT_DIR>` with your local paths.
 
 ----
 
+
+## Output
+The prediction/output file will be generated as a csv file containing the probability and prediction values for all bioactivity classes.
+
+If the probability value ≥ 0.5 → prediction = 1
+
+If the probability value < 0.5 → prediction = 0
+
+----
+
 ## Citation
 
 If you use NPBDetect in your research, please cite:
