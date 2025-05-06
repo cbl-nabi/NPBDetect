@@ -45,7 +45,7 @@ NPBDetect is available via:
 
 2. **Use NPBDetect**
 
-   NPBDetect can be run both:
+   NPBDetect can be run in two ways:
    - Online via Google Colab
    - Locally via CLI (Conda environment) or Docker
 
@@ -121,17 +121,26 @@ docker run --rm -it \
 
 Replace `<INPUT_DIR>` and `<OUTPUT_DIR>` with your local paths.
 
-----
+Note: change output_type = from "HC" to "ORG" for 8 bioactivity class predictions.
 
+----
 
 ## Output
 The prediction/output file will be generated as a csv file containing the probability and prediction values for all bioactivity classes.
 
 If the probability value ≥ 0.5 → prediction = 1
 
-If the probability value < 0.5 → prediction = 0
+If the probability value < 0.5 → prediction = 0.
 
 ----
+
+
+## License
+The software is licensed under MIT License.
+
+
+----
+
 
 ## Citation
 
