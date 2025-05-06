@@ -93,7 +93,7 @@ NPBDetect is available via:
 NPBDetect is also available online through Google Colaboratory.  
 No installation required!
 
-👉 **Launch it here**: [NPBDetect@Google-Colab](https://colab.research.google.com/drive/12zXjqk1DFX8Ouv0rYSAWSoaOheluBys9#scrollTo=MiUQ7HHR2rC8)
+👉 **Launch it here**: [NPBDetect@Google-Colab](https://colab.research.google.com/drive/1cVv9VgYTEHSPsBX-xVdVVNJgyjkXOz9E?usp=sharing#scrollTo=fcDLr4xs3jF2)
 
 ----
 
