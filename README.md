@@ -40,7 +40,7 @@ NPBDetect is available via:
    Example command to generate a `.gbk` file:
 
    ```bash
-   antismash <your_input_genome.fasta>
+   antismash --output_dir <OUTPUT_FOLDER> --minlength 500 --cb-general --cb-knownclusters --cb-subclusters --fullhmmer --asf --pfam2go --smcog-trees -c 32 --genefinding-tool prodigal <INPUT_file>
    ```
 
 2. **Use NPBDetect**
@@ -72,7 +72,7 @@ NPBDetect is available via:
 3. **Clone the NPBDetect repository**
 
    ```bash
-   git clone git@github.com:cbl-nabi/NPBDetect.git
+   git clone https://github.com/cbl-nabi/NPBDetect
    cd NPBDetect
    ```
 
@@ -111,7 +111,7 @@ Example command:
 docker run --rm -it \
     --volume <INPUT_DIR>:/data/input \
     --volume <OUTPUT_DIR>:/data/output \
-    dalwindercheema/npbdetect \
+    mantrilabnabi/npbdetect \
     python NPBDetect.py predict \
         -v 1 \
         --gbk /data/input/BGC0000004.gbk \
